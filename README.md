@@ -20,14 +20,14 @@ Instructions on running uncertainty estimation algorithms on collected data are 
 **System Requirements:** Windows 10 and python 3.7 or higher <br>
 **Required Packages:** pyrealsense2, opencv-python, numpy 
 #### Steps 
-If you have python, pip, and git already installed skip to step 4 and onward. <br>
+If you have python, pip, and git already installed skip steps 1-3. <br>
 1. Download and install the latest version of python from the download section of https://python.org <br>
 2. To install pip, run
 ```shell
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
-Note: If you don't have curl installed, download the file from your browser by visiting (https://bootstrap.pypa.io/get-pip.py). Navigate to the downloaded folder using 'cd' command and run the following command to install pip: `python get-pip.py` <br>
+Note: If you don't have curl installed, download the file from your browser by visiting (https://bootstrap.pypa.io/get-pip.py). Navigate to the downloaded folder using `cd` command and run the following command to install pip: `python get-pip.py`. <br>
 3. Install git by downloading the appropriate git installation file from (https://git-scm.com/download/win) and run the executable file. <br>
 4. To install Pyrealsense, run
 ```shell

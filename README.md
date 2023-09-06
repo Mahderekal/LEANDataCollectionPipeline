@@ -98,7 +98,7 @@ Once it's complete, `cd` to the cloned uncertainty_from_motion directory and run
 4. Once all the images have been saved in the output folder, `cd` there and run `ffmpeg -framerate 30 -i result_%d.png -c:v libx264 -pix_fmt yuv420p output_video.mp4` to convert it to a video. You can replace the name of the output video. <br>
 
 **Additional troubleshooting tips**
-- While following the instructions in the UfM readme file add ‘CUDA_VISIBLE_DEVICES=1,2’ on the command for running the UfM (python3 examples/evaluate_uncertainty_network.py configuration/configuration_freiburg4.yaml)
+- While following the instructions in the UfM readme file add `CUDA_VISIBLE_DEVICES=1,2` on the command for running the UfM (python3 examples/evaluate_uncertainty_network.py configuration/configuration_freiburg4.yaml)
 - When plotting the calibration curves, use `multiview` for running UfM, or replace it with `aleatoric` or `epistemic` (which is an ensemble of aleatoric and epistemic) 
 
 ## Citations
